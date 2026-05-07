@@ -8,7 +8,7 @@
     min-height: 100vh;
     width: 100%;
 
-    background-color: #D9D9D9;
+    background-color: #eeecec;
     display: flex;
     flex-direction: row;
 }
@@ -270,7 +270,7 @@ nav {
     color: #2C2C2C;
     font-size: 3rem;
     font-weight: normal;
-    line-height: 4rem;
+    line-height: 3rem;
 
 
 
@@ -316,10 +316,17 @@ button:hover {
     font-weight: 400;
 }
 
-p {
+.cardTexto p {
     font-family: "Alata", sans-serif;
+    font-weight: 300;
+    color: #cecece;
+}
+
+.divHeroIndex p {
+     font-family: "Alata", sans-serif;
     font-weight: 400;
     color: #2C2C2C;
+
 }
 
 .divButtonHeroPerfil button {
@@ -356,7 +363,7 @@ p {
 }
 
 .icon button {
-    border-radius: 100%;
+    border-radius: 80%;
     height: 20px;
     width: 20px;
     background-color: #92D938;
@@ -377,3 +384,331 @@ header button svg {
     padding: 8%;
 
 }
+
+/* BODY */
+
+body{
+    background-color: #1E1E1E;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* LAYOUT PRINCIPAL */
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+
+/* SIDEBAR */
+
+.container{
+    width: 260px;
+    min-height: 100vh;
+
+    background-color: #92D938;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-top: 3rem;
+
+    gap: 2rem;
+}
+
+
+/* LOGO */
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+
+    color: #2C2C2C;
+
+    margin-bottom: 2rem;
+}
+
+
+/* MENU */
+
+.container p{
+    font-size: 1.1rem;
+
+    color: #2C2C2C;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.container p:hover{
+    transform: translateX(5px);
+}
+
+
+/* DASHBOARD */
+
+.aside{
+    width: 100%;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
+
+/* HEADER */
+
+.topbar{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.topbar h1{
+    color: white;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+}
+
+
+/* CARDS */
+
+.dashboardCards{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 2rem;
+}
+
+
+.cardInfos{
+    background-color: #2C2C2C;
+
+    border-radius: 1rem;
+
+    padding: 2rem;
+
+    min-width: 250px;
+
+    flex: 1;
+
+    min-height: 180px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 1rem;
+
+    transition: 0.3s;
+}
+
+
+.cardInfos:hover{
+    transform: translateY(-5px);
+}
+
+
+.cardInfos h2{
+    color: #92D938;
+
+    font-size: 1.2rem;
+
+    font-weight: 500;
+}
+
+
+.cardInfos p{
+    color: white;
+
+    font-size: 2rem;
+
+    font-weight: bold;
+}
+
+
+/* GRAFICOS */
+
+.graficos{
+    background-color: #2C2C2C;
+
+    border-radius: 1rem;
+
+    padding: 2rem;
+
+    min-height: 350px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.graficos h2{
+    color: white;
+}
+
+
+/* INSIGHTS */
+
+.insights{
+    background-color: #2C2C2C;
+
+    border-radius: 1rem;
+
+    padding: 2rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+
+.insights h2{
+    color: #92D938;
+
+    font-size: 1.5rem;
+}
+
+
+.insights p{
+    background-color: #3A3A3A;
+
+    color: white;
+
+    padding: 1rem;
+
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+}
+
+
+/* TABELA */
+
+.tabela{
+    background-color: #2C2C2C;
+
+    border-radius: 1rem;
+
+    padding: 2rem;
+}
+
+
+.tabela h2{
+    color: #92D938;
+
+    margin-bottom: 1rem;
+}
+
+
+table{
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+th{
+    color: #92D938;
+
+    text-align: left;
+
+    padding: 1rem;
+}
+
+
+td{
+    color: white;
+
+    padding: 1rem;
+
+    border-top: 1px solid #3A3A3A;
+}
+
+
+/* BOTÕES */
+
+.button{
+    width: 180px;
+
+    height: 45px;
+
+    border: none;
+
+    border-radius: 2rem;
+
+    background-color: #92D938;
+
+    color: #2C2C2C;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.button:hover{
+    background-color: #7fad43;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media(max-width: 900px){
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 100%;
+        min-height: auto;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        padding: 1rem;
+    }
+
+    .aside{
+        padding: 1rem;
+    }
+
+    .dashboardCards{
+        flex-direction: column;
+    }
+
+}
+
