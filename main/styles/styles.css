@@ -354,7 +354,8 @@ button:hover {
 .botoes {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .svgButton svg {
@@ -383,6 +384,12 @@ header button svg {
     width: auto;
     padding: 8%;
 
+}
+
+.divHeroIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* BODY */
