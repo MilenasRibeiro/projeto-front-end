@@ -3,3 +3,165 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 150px;
+    width: 600px;
+    background-color: #92D938;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.container p {
+    font-size: 2rem;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    color: #D9D9D9;
+    font-weight: 700;
+    line-height: 2rem;
+
+}
+
+.container svg {
+    font-size: 2rem;
+}
+
+.aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 2px;
+
+
+
+}
+
+.cardInfos {
+    min-height: 400px;
+    width: 500px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    flex-flow: column wrap;
+    background-color: #2C2C2C;
+    border-radius: 4rem;
+    gap: 3rem;
+    padding: 4%;
+}
+
+
+.cardTexto,
+h1 {
+    font-family: "DM Sans", sans-serif;
+    color: #ebebeb;
+    font-size: 4rem;
+    font-weight: 200;
+    line-height: 3.5rem;
+    width: 100%;
+}
+
+.cardTexto,
+p {
+    font-size: 1.5rem;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-weight: 200;
+    line-height: 2rem;
+
+}
+
+.cardButton .buttonCadastro {
+    height: 40px;
+    width: 250px;
+
+    border-radius: 4rem;
+    background-color: #D9D9D9;
+    font-size: 0.95rem;
+    padding: 2%;
+
+    border-style: none;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #2C2C2C;
+
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.buttonCadastro:hover {
+    background-color: #b8bdb3;
+}
+
+.cardButton .buttonLogin {
+
+    height: 40px;
+    width: 250px;
+    border-radius: 4rem;
+    font-size: 0.95rem;
+    padding: 2%;
+    background-color: #92D938;
+    border-style: none;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #2C2C2C;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+
+
+
+
+
+
+
+}
+
+.buttonLogin:hover {
+    background-color: #7fad43;
+}
+
+
+
+.cardButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+
+
+.esqueciMinhaSenha {
+    font-family: "Dm Sans", Arial, Helvetica, sans-serif;
+    font-weight: 0;
+    font-size: 1rem;
+    color: #D9D9D9;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
