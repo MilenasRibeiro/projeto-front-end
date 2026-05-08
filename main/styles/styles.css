@@ -259,7 +259,7 @@ body {
 
 /* MENU */
 
-.container p {
+.container p, a {
     font-size: 1.1rem;
 
     color: #2C2C2C;
