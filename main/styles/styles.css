@@ -308,6 +308,8 @@ nav {
 
 button:hover {
     background-color: #a2ec40;
+    transform: translateY(-5px);
+
 }
 
 .verSaldo,
@@ -323,7 +325,7 @@ button:hover {
 }
 
 .divHeroIndex p {
-     font-family: "Alata", sans-serif;
+    font-family: "Alata", sans-serif;
     font-weight: 400;
     color: #2C2C2C;
 
@@ -394,7 +396,7 @@ header button svg {
 
 /* BODY */
 
-body{
+body {
     background-color: #1E1E1E;
     font-family: "DM Sans", sans-serif;
 }
@@ -402,7 +404,7 @@ body{
 
 /* LAYOUT PRINCIPAL */
 
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
 
@@ -412,7 +414,7 @@ body{
 
 /* SIDEBAR */
 
-.container{
+.container {
     width: 260px;
     min-height: 100vh;
 
@@ -431,7 +433,7 @@ body{
 
 /* LOGO */
 
-.logo{
+.logo {
     font-size: 2rem;
     font-weight: bold;
 
@@ -443,7 +445,7 @@ body{
 
 /* MENU */
 
-.container p{
+.container p {
     font-size: 1.1rem;
 
     color: #2C2C2C;
@@ -454,14 +456,14 @@ body{
 }
 
 
-.container p:hover{
+.container p:hover {
     transform: translateX(5px);
 }
 
 
 /* DASHBOARD */
 
-.aside{
+.aside {
     width: 100%;
 
     padding: 2rem;
@@ -475,7 +477,7 @@ body{
 
 /* HEADER */
 
-.topbar{
+.topbar {
     display: flex;
 
     justify-content: space-between;
@@ -484,18 +486,18 @@ body{
 }
 
 
-.topbar h1{
+.topbar h1 {
     color: white;
 
-    font-size: 2rem;
+    font-size: 2.2rem;
 
-    font-weight: 600;
+    font-weight:normal;
 }
 
 
 /* CARDS */
 
-.dashboardCards{
+.dashboardCards {
     display: flex;
 
     flex-wrap: wrap;
@@ -504,7 +506,7 @@ body{
 }
 
 
-.cardInfos{
+.cardInfos {
     background-color: #2C2C2C;
 
     border-radius: 1rem;
@@ -529,21 +531,23 @@ body{
 }
 
 
-.cardInfos:hover{
+.cardInfos:hover {
     transform: translateY(-5px);
 }
 
 
-.cardInfos h2{
+.cardInfos h2 {
     color: #92D938;
 
     font-size: 1.2rem;
 
     font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-weight: normal;
 }
 
 
-.cardInfos p{
+.cardInfos p {
     color: white;
 
     font-size: 2rem;
@@ -554,7 +558,7 @@ body{
 
 /* GRAFICOS */
 
-.graficos{
+.graficos {
     background-color: #2C2C2C;
 
     border-radius: 1rem;
@@ -571,14 +575,14 @@ body{
 }
 
 
-.graficos h2{
+.graficos h2 {
     color: white;
 }
 
 
 /* INSIGHTS */
 
-.insights{
+.insights {
     background-color: #2C2C2C;
 
     border-radius: 1rem;
@@ -593,15 +597,23 @@ body{
 }
 
 
-.insights h2{
+.insights h2 {
     color: #92D938;
+     font-size: 1.5rem;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 2rem;
 
     font-size: 1.5rem;
 }
 
 
-.insights p{
+.insights p {
     background-color: #3A3A3A;
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-weight: 200;
+    line-height: 2rem;
 
     color: white;
 
@@ -617,7 +629,7 @@ body{
 
 /* TABELA */
 
-.tabela{
+.tabela {
     background-color: #2C2C2C;
 
     border-radius: 1rem;
@@ -626,21 +638,21 @@ body{
 }
 
 
-.tabela h2{
+.tabela h2 {
     color: #92D938;
 
     margin-bottom: 1rem;
 }
 
 
-table{
+table {
     width: 100%;
 
     border-collapse: collapse;
 }
 
 
-th{
+th {
     color: #92D938;
 
     text-align: left;
@@ -649,7 +661,7 @@ th{
 }
 
 
-td{
+td {
     color: white;
 
     padding: 1rem;
@@ -660,7 +672,7 @@ td{
 
 /* BOTÕES */
 
-.button{
+.button {
     width: 180px;
 
     height: 45px;
@@ -683,20 +695,25 @@ td{
 }
 
 
-.button:hover{
+.button:hover {
     background-color: #7fad43;
+}
+
+.logo{
+    padding: 2rem;
+    line-height: 1.8rem;
 }
 
 
 /* RESPONSIVIDADE */
 
-@media(max-width: 900px){
+@media(max-width: 900px) {
 
-    .hero{
+    .hero {
         flex-direction: column;
     }
 
-    .container{
+    .container {
         width: 100%;
         min-height: auto;
 
@@ -709,13 +726,12 @@ td{
         padding: 1rem;
     }
 
-    .aside{
-        padding: 1rem;
+    .aside {
+        padding: 2rem;
     }
 
-    .dashboardCards{
+    .dashboardCards {
         flex-direction: column;
     }
 
 }
-
