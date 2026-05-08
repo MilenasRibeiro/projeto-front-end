@@ -5,15 +5,20 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
 
     <title>
-        Smart Finance
+        Smart Finance | Dashboard
     </title>
 
-    <link rel="stylesheet"
-          href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+
 
 </head>
 
@@ -27,8 +32,8 @@
         <aside class="container">
 
             <div class="logo">
-                Smart <br>
-                Finance
+                Smart <b>
+                    Finance </b>
             </div>
 
 
@@ -131,19 +136,16 @@
 
 
 
-                    <input type="text"
-                           id="desc"
-                           placeholder="Descrição">
+                    <input type="text" id="desc" placeholder="Descrição">
 
 
 
-                    <input type="number"
-                           id="amount"
-                           placeholder="Valor">
+                    <input type="number" id="amount" placeholder="Valor">
 
 
 
                     <select id="type">
+                        <option>Selecionar:</option>
 
                         <option>
                             Entrada
@@ -157,8 +159,7 @@
 
 
 
-                    <button id="btnNew"
-                            class="button">
+                    <button id="btnNew" class="button">
 
                         Adicionar
 
@@ -216,8 +217,7 @@
 
             <!-- INSIGHTS -->
 
-            <section id="areaInsights"
-                     style="display: none;">
+            <section id="areaInsights" style="display: none;">
 
                 <div class="insights">
 
@@ -242,8 +242,7 @@
 
             <!-- RELATÓRIOS -->
 
-            <section id="areaRelatorios"
-                     style="display: none;">
+            <section id="areaRelatorios" style="display: none;">
 
                 <div class="graficos">
 
@@ -260,8 +259,7 @@
     </div>
 
 
-    <script type="module"
-            src="./js/dashboard.js">
+    <script type="module" src="./js/dashboard.js">
     </script>
 
 </body>
