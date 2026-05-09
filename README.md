@@ -48,12 +48,8 @@ Painel administrativo intuitivo
 Como Executar o Projeto
 1️⃣ Clone o repositório
 git clone https://github.com/seuusuario/seurepositorio.git
-
-
 2️⃣ Acesse a pasta do projeto
 cd seurepositorio
-
-
 3️⃣ Configure o banco de dados
 Crie um banco de dados no MySQL
 Importe o arquivo .sql
@@ -73,8 +69,7 @@ Laragon
 Depois acesse:
 http://localhost/projeto
 
-
- Segurança
+Segurança
 O projeto possui estrutura preparada para:
 Login de usuários
 Validação de dados
@@ -96,6 +91,6 @@ Milena,Rosane é Lívia /  Sistema Inteligente Financeiro
 Licença
 Este projeto está sob a licença MIT.
 
- Contribuição
+Contribuição
 Sinta-se à vontade para contribuir com melhorias no projeto.
 Fork -> Clone -> Commit -> Push -> Pull Request
